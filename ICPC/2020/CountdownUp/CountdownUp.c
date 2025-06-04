@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int n; // *整数の個数
-int d[256]; // *整数の配列
+int d[1000]; // *整数の配列
 int ans[256]; // *結果を格納する
 
 int main()

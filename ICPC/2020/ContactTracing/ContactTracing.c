@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int m, n, p; // *利用者の人数、記録の件数、感染した人のID
-int a[256], b[256];
+int a[1000], b[1000];
 int ans[256]; // *感染した人のIDを格納する
 int infection[256]; // *感染フラグ
 
