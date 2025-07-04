@@ -5,10 +5,10 @@ char s[256];
 
 int main()
 {
-    int tmp[256] = {0};
-    int k = 0;
     while (1)
     {
+        int cnt = 0;
+        int k = 0;
         scanf("%d", &n);
         if (n == 0)
             break;
@@ -18,42 +18,35 @@ int main()
             scanf(" %c", &s[i]);
             i++;
         }
-        i = n - 1;
-        while (i > 0)
+        i = 1;
+        while (i < n)
         {
+            int match = 1;
             int j = 0;
-            while (j < n)
+            while (j < n - i)
             {
-                if (s[i] == s[j])
+                if (s[j] != s[i + j])
                 {
-                    tmp[k++] = i;
+                    match = 0;
                     break;
                 }
                 j++;
             }
-            i--;
-        }
-        i = 0;
-        int index = 0;
-        while(i < n)
-        {
-            if (tmp[i] + 1 != tmp[i + 1])
-                index = tmp[i];
-            else
+            if (match)
                 break;
             i++;
         }
-        i = 0;
-        while(i < n)
+        int j = 0;
+        while(j < n)
         {
-            printf("%c", s[i]);
-            i++;
+            printf("%c", s[j]);
+            j++;
         }
-        i = index + 1;
-        while (i <= n)
+        j = n - i;
+        while (j < n)
         {
-            printf("%c", s[i]);
-            i++;
+            printf("%c", s[j]);
+            j++;
         }
         printf("\n");
     }
