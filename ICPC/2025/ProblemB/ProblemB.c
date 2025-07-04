@@ -7,8 +7,6 @@ int main()
 {
     while (1)
     {
-        int cnt = 0;
-        int k = 0;
         scanf("%d", &n);
         if (n == 0)
             break;
