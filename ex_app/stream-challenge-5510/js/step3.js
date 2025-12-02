@@ -1,8 +1,12 @@
-const utils = require('../js/utils');
+const utils = require("../js/utils");
 
 async function step3() {
-  const name = await utils.loginUserName();
-  console.log(`user name: ${name}`);
+  try {
+    const name = await utils.loginUserName();
+    console.log(`user name: ${name}`);
+  } catch (e) {
+    console.log("Failed getting: user name");
+  }
 }
 
 // for main.js

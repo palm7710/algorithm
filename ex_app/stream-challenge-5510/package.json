@@ -1,4 +1,13 @@
 {
+  "scripts": {
+    "start": "node js/main.js Step1",
+    "step1": "node js/main.js Step1",
+    "step2": "node js/main.js Step2",
+    "step3": "node js/main.js Step3",
+    "step4": "node js/main.js Step4",
+    "step5": "node js/main.js Step5",
+    "test": "mocha test/basic.js"
+  },
   "dependencies": {
     "sinon": "9.0.2",
     "yaml": "^1.7.2"

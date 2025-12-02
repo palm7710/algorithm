@@ -1,8 +1,8 @@
-const utils = require('../js/utils');
+const utils = require("../js/utils");
 
-function step1() {
+async function step1() {
   let serverName;
-  // serverName = await utils.connectingServer();
+  serverName = await utils.connectingServer();
   console.log(`server name: ${serverName}`);
 }
 
