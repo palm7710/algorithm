@@ -1,0 +1,14 @@
+{
+  "challengeId": 651,
+  "applicantExamId": 1182362,
+  "challengeResultId": 2511369,
+  "app": 1,
+  "baseUrl": "https://app.tracks.run",
+  "orgName": "tutorial",
+  "token": "dd8e8d011bb1491f9ddf9c6d45e78f1d",
+  "cookies": {
+    "PLAY_SESSION": "eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7IlgtU0VTU0lPTklEIjoiZDRlMmY3MWEtMmI3Zi00MzY5LThiNjUtMzYwMDQwZDhhZjMwIn0sIm5iZiI6MTc2NDU2MjU2NywiaWF0IjoxNzY0NTYyNTY3fQ.vmCQlk94Pn9R2uptzmbYClfbuil-oo86b-L4Azden6g",
+    "PLAY_LANG": "ja"
+  },
+  "programmingLanguage": 11
+}
