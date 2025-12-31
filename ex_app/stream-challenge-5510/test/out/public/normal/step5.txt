@@ -1,5 +1,0 @@
-subtracted stock
-paid goods
-Process completed: purchase
-receiptNo: 1023 stock: 96
-run time: Sec
