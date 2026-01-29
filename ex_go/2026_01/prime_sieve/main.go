@@ -4,7 +4,7 @@ import "fmt"
 
 /*
 	「エラトステネスのふるい」のアルゴリズム
-	1：go mod init example.com/prime_sieve
+	1：go mod init example.com/main
 	2：go run
 */
 
