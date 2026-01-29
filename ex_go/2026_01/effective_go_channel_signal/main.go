@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+// ソートアルゴリズムが終わるまで終わるまで別のことをする関数
 func doSomethingForAWhile() {
 	time.Sleep(300 * time.Millisecond)
 	fmt.Println("作業中...")
@@ -22,7 +23,7 @@ func main() {
 	}()
 
 	doSomethingForAWhile()
-	<-c // sort の完了を待つ。受け取った値は捨てる。
+	<-c // ソートが終わるまで待機。受け取った値は捨てる。
 
 	fmt.Println("sorted:", list)
 }
